@@ -1,0 +1,4 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" 
+controllerName="tcs.fin.payroll.controller.Supplier">
+    <ObjectHeader intro="{contactNo}" title="{name}" number="{sinceWhen}" numberUnit="{city} {contactPerson}"></ObjectHeader>
+</mvc:View>

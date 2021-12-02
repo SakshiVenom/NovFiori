@@ -1,0 +1,29 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:form="sap.ui.layout.form"
+     controllerName="tcs.fin.payroll.controller.View2">
+   <Page title="View 2" showNavButton="true" navButtonPress="onBack">
+   <content>
+    <ObjectHeader title="{NAME}" intro="{DESCRIPTION}" number="{PRICE}" numberUnit="{CURRENCY_CODE}" icon="{image}"></ObjectHeader>
+      <IconTabBar >
+        <items>
+            <IconTabFilter text="More Info" icon="sap-icon://warning">
+                <core:Fragment fragmentName="tcs.fin.payroll.fragments.MoreInfo" type="XML" />
+            </IconTabFilter>
+            <IconTabFilter text="Suppliers" icon="sap-icon://supplier">
+                <core:Fragment fragmentName="tcs.fin.payroll.fragments.SupplierTab" type="XML" />
+            </IconTabFilter>
+            <IconTabFilter text="Cities" icon="sap-icon://home">
+                <core:Fragment fragmentName="tcs.fin.payroll.fragments.Cities" type="XML" />
+                
+            </IconTabFilter>
+        </items>
+    </IconTabBar>
+   </content>
+    <footer>
+        <Toolbar>
+            <ToolbarSpacer></ToolbarSpacer>
+            <Button text="Save" type="Accept" press="onSave"></Button>
+            <Button text="Cancel" type="Reject" press="onCancel"></Button>
+        </Toolbar>
+    </footer>
+   </Page>
+</mvc:View> 

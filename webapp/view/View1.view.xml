@@ -1,0 +1,58 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tcs.fin.payroll.controller.View1">
+   <Page title="View 1">
+        <headerContent>
+            <Button icon="sap-icon://action" press="onNext"></Button>
+        </headerContent>
+        <content>
+            <SearchField id="idSearch" liveChange="onSearch"/>
+            <List id="idList" items="{/ProductSet}"
+            growing="true" growingThreshold="10" selectionChange="onSelectItem" delete="onDelete" mode="SingleSelectMaster">
+            <headerToolbar>
+                <Toolbar>
+                    <ToolbarSpacer ></ToolbarSpacer>
+                    <Button icon="sap-icon://delete" press="onDeleteItem"></Button>
+                </Toolbar>
+            </headerToolbar>
+                <items>
+                    <!-- <DisplayListItem label="Apple" value="Most powerful antibiotic in the world." />
+                    <StandardListItem title="Banana" description="Biggest source of potassium." 
+                    icon="https://image.shutterstock.com/image-photo/bunch-bananas-isolated-on-white-260nw-1722111529.jpg"></StandardListItem> -->
+                    
+                    <ObjectListItem title="{PRODUCT_ID}" intro="{CATEGORY}" icon="{image}"
+                     number="{PRICE}" numberUnit="{CURRENCY_CODE}">
+                        <firstStatus>
+                            <ObjectStatus text="{DIM_UNIT}"></ObjectStatus>
+                        </firstStatus>
+                     </ObjectListItem>
+
+                    <!-- <InputListItem>
+                        <content>
+                            <HBox>
+                                <Text class="sapUiSmallMarginTop" text="Which is the best fruit for skin?"/>
+                                <Input />
+                            </HBox>
+                        </content>
+                    </InputListItem>
+                    <CustomListItem>
+                        <content>
+                            <SegmentedButton >
+                                <buttons>
+                                    <Button text="Low" />
+                                    <Button text="Medium" />
+                                    <Button text="High" />
+                                </buttons>
+                            </SegmentedButton>
+                        </content>
+                    </CustomListItem>
+                    <ActionListItem text="Order Now!!" press="onNext"></ActionListItem> -->
+                </items>
+            </List>
+        </content>
+        <footer>
+            <Toolbar >
+                <ToolbarSpacer ></ToolbarSpacer>
+                <Button text="Add" icon="sap-icon://add" press="onAdd"></Button>
+            </Toolbar>
+        </footer>
+   </Page>
+</mvc:View>

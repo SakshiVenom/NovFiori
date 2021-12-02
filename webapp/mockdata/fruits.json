@@ -1,0 +1,104 @@
+{
+    "fruits": [{
+			"name": "Apple",
+			"color": "Red",
+			"type": "neutral",
+			"price": 100,
+			"currency": "INR",
+			"unit": "kg",
+			"season": "All",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg"
+		},
+		{
+			"name": "Banana",
+			"color": "Yellow",
+			"type": "alkaline",
+			"price": 40,
+			"currency": "INR",
+			"unit": "kg",
+			"season": "All",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bananas_white_background_DS.jpg/320px-Bananas_white_background_DS.jpg"
+		},
+		{
+			"name": "Grapes",
+			"color": "Green",
+			"type": "citrus",
+			"price": 50,
+			"currency": "INR",
+			"unit": "kg",
+			"season": "Winter",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg"
+		},
+		{
+			"name": "Pineapple",
+			"color": "Light Green",
+			"type": "neutral",
+			"price": 80,
+			"currency": "INR",
+			"unit": "kg",
+			"season": "Winter",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg"
+		},
+		{
+			"name": "Mango",
+			"color": "Yellow",
+			"type": "moderately acidic",
+			"price": 150,
+			"currency": "INR",
+			"unit": "kg",
+			"season": "Summer",
+			"image": "https://www.mango.org/wp-content/uploads/2017/11/houney-variety.jpg"
+		}
+	],
+    "cities": [{
+                "name": "Mumbai",
+                "state": "Maharashtra",
+                "population": "1.25 crores",
+                "famousFor": "World Heritage Sites",
+                "lat": "19.0760° N",
+                "lng": "72.8777° E"
+            },
+            {
+                "name": "Delhi",
+                "state": "Delhi",
+                "population": "1.9 crores",
+                "famousFor": "Gardens and Botanical houses",
+                "lat": "28.7041° N",
+                "lng": "77.1025° E"
+            },
+            {
+                "name": "Bengaluru",
+                "state": "Karnataka",
+                "population": "12,765,000",
+                "famousFor": "IT",
+                "lat": "12.9716° N",
+                "lng": "77.5946° E"
+            }
+        ],
+
+        "suppliers": [{
+                "name": "Solethreads",
+                "contactPerson": "Gaurav Chopra",
+                "sinceWhen": 2018,
+                "city": "Gurugram",
+                "specialty": "footwear",
+                "contactNo": 1234567890
+            },
+            {
+                "name": "CCTea",
+                "contactPerson": "Ragesh Kiesham",
+                "sinceWhen": 2011,
+                "city": "Imphal",
+                "specialty": "tea",
+                "contactNo": 4658264822
+            },
+            {
+                "name": "DailyObjects",
+                "contactPerson": "Pankaj Garg",
+                "sinceWhen": 2009,
+                "city": "Ahmedabad",
+                "specialty": "electronics' accessories",
+                "contactNo": 4719472957
+            }
+        ]
+}

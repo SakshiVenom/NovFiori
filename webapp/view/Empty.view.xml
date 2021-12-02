@@ -1,0 +1,4 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="tcs.fin.payroll.controller.Empty">
+    <!-- <Image src="" width="100%" height="100%"></Image> -->
+    <html:iframe src="https://www.anubhavtrainings.com/" width="100%" height="100%" />
+</mvc:View>

@@ -1,0 +1,6 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tcs.fin.payroll.controller.App">
+    <!-- Root View - App.view.xml -->
+    <!-- Container Control -->
+    <!-- <App id="AppCon" />  -->
+    <SplitApp id="AppCon"></SplitApp>
+</mvc:View>
