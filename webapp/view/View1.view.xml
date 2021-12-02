@@ -4,7 +4,7 @@
             <Button icon="sap-icon://action" press="onNext"></Button>
         </headerContent>
         <content>
-        <!-- My Git commit changes test -->
+        <!-- I changed my view to test -->
             <SearchField id="idSearch" liveChange="onSearch"/>
             <List id="idList" items="{/ProductSet}"
             growing="true" growingThreshold="10" selectionChange="onSelectItem" delete="onDelete" mode="SingleSelectMaster">
